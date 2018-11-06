@@ -4,7 +4,7 @@ def line(current_line)
   else
     message = "The line is currently: "
     current_line.each_with_index do |name, number|
-      message += "#{number + 1}. #{name}"
+      message += "#{number + 1}. #{name} "
     end
   end 
   puts message
