@@ -4,5 +4,9 @@ def line(current_line)
   else
     message = "The line is currently:"
     current_line.each_with_index do |name, number|
-    
+  end
+   puts message
+end
+
+
 
