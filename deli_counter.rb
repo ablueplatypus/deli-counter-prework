@@ -14,12 +14,3 @@ def take_a_number(array_line, name)
   number = array_line.length
   puts "Welcome, #{name}. You are number #{number} in line."
 end
-
-def now_serving(array)
-  if array.length == 0
-    puts "There is nobody waiting to be served!"
-  else 
-    next_in_line = array.shift
-    puts "Currently serving #{next_in_line}."
-  end
-end
