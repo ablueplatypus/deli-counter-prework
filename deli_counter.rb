@@ -6,6 +6,7 @@ def line(current_line)
     current_line.each_with_index do |name, number|
       message.push("#{number + 1}. #{name}")
   end
+end 
   puts message
 end
 
