@@ -1,5 +1,5 @@
 def line(current_line)
-  if current_line.length == []
+  if current_line == []
     puts "The line is currently empty."
   else
     message = "The line is currently:"
