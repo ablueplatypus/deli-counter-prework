@@ -8,7 +8,6 @@ def line(current_line)
     end
     puts message
   end 
-  
 end
 
 def take_a_number(array_line, name)
