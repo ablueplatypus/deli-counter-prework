@@ -9,8 +9,3 @@ def line(current_line)
   puts message
 end
 
-def take_a_number(array_line, name)
-  array_line.push(name)
-  number = array_line.length
-  puts "Welcome, #{name}. You are number #{number} in line."
-end
