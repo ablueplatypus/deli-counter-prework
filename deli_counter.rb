@@ -3,7 +3,7 @@ def line(current_line)
     puts "The line is currently empty."
   else
     message = "The line is currently: "
-    current_line.each_with_index(2) do |name, number|
+    current_line.each_with_index do |name, number|
       message += "#{number + 1}. #{name} "
     end
     puts message
