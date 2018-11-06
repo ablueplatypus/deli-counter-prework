@@ -6,8 +6,9 @@ def line(current_line)
     current_line.each_with_index do |name, number|
       message += "#{number + 1}. #{name} "
     end
+    puts message
   end 
-  puts message
+  
 end
 
 def take_a_number(array_line, name)
